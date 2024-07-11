@@ -17,8 +17,8 @@ from sklearn.decomposition import PCA
 # seeds = pd.read_csv("dataset/seeds.csv")  # 小麦种子数据集 seeds  class=3 Eps=0.17 MinPts=8
 # wdbc = pd.read_csv("dataset/wdbc.csv")  # 威斯康星州乳腺癌数据集 Breast Cancer Wisconsin Diagnostic class=2 Eps=0.27 MinPts=7
 # glass = pd.read_csv("dataset/glass.csv")  # 玻璃辨识数据集 Glass Identification  class=6
-aggregation = pd.read_csv("dataset/aggregation.csv")  # 人工数据集 Eps=0.18 MinPts=4
-flame = pd.read_csv("dataset/flame.csv")  # 人工数据集 Eps=0.28 MinPts=4
+# aggregation = pd.read_csv("dataset/aggregation.csv")  # 人工数据集 Eps=0.18 MinPts=4
+# flame = pd.read_csv("dataset/flame.csv")  # 人工数据集 Eps=0.28 MinPts=4
 jain = pd.read_csv("dataset/jain.csv")  # 人工数据集 Eps = 0.315 MinPts = 4
 spiral = pd.read_csv("dataset/spiral.csv")  # 人工数据集 Eps=0.45 MinPts=4
 df = jain  # 设置要读取的数据集
