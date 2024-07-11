@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/FCM" />
+        <option value="$MODULE_DIR$/DBSCAN" />
+        <option value="$MODULE_DIR$/logisticRegression" />
+        <option value="$MODULE_DIR$/NaiveBayes" />
+        <option value="$MODULE_DIR$/regress" />
+        <option value="$MODULE_DIR$/K-means/dataset" />
+        <option value="$MODULE_DIR$/DPC/dataset" />
+        <option value="$MODULE_DIR$/K-means" />
+        <option value="$MODULE_DIR$/DPC" />
+      </list>
+    </option>
+  </component>
+</module>
