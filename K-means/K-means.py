@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import nonzero, array
-from sklearn.cluster import KMeans
 from sklearn.metrics import f1_score, accuracy_score, normalized_mutual_info_score, rand_score, adjusted_rand_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.decomposition import PCA

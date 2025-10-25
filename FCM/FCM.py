@@ -4,8 +4,6 @@ import numpy as np
 import operator
 import math
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import random
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import normalized_mutual_info_score  # NMI
@@ -93,6 +91,8 @@ def fuzzyCMeansClustering(c, epsilon, m, T):
     start = time.time()  # 开始时间，计时
     membership_mat = initializeMembershipMatrix()  # 初始化隶属度矩阵
     t = 0
+    cluster_labels = []
+    cluster_centers = []
     while t <= T:  # 最大迭代次数
         cluster_centers = calculateClusterCenter(membership_mat, c, m)  # 根据隶属度矩阵计算聚类中心
         old_membership_mat = membership_mat.copy()  # 保留之前的隶属度矩阵，同于判断迭代条件
